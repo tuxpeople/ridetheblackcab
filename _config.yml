@@ -1,23 +1,23 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: Ride The Black Cab
+url: "https://ridetheblackcab.uk"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: Webseite über London
 author:
-  name:
+  name: Thomas Deutsch
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: tdeutsch
 social:
-  name: Edition Template
+  name: Source
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://github.com/tuxpeople/ridetheblackcab
 
 # -----
 # Build
@@ -37,7 +37,7 @@ exclude:
 
 collections:
   docs:
-    title: Documentation
+    title: Documentations
     permalink: /:path/
     output: true
 
